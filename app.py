@@ -39,6 +39,7 @@ VALID_USERNAME_PASSWORD_PAIRS = [
 #print(DATABASE_USER)
 
 app = dash.Dash(__name__)#, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 app.title = 'Dashboard - Fastlane Automotive'
 
